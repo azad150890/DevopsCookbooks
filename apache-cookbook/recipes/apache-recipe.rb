@@ -10,7 +10,7 @@ package 'httpd' do
 end
 
 file '/var/www/html/index.html' do
-  content "<h1>Hello Dear Students!!Hope you are learning Devops!!!<h1>"
+  content "<h1>Hello Dear Students!!Hope you are learning Devops!!!Integrating git<h1>"
   action :create
 end
 
